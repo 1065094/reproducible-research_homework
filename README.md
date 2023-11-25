@@ -1,7 +1,9 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
-
+## Question 4
+A) In the graph I can clearly see how randomness is generated, as both graphs are next to each other and are different trials. This varies overtime.
+B) A random seed is a number used to initialize a pseudorandom number generator. **Plagirism - change**
+C)
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
