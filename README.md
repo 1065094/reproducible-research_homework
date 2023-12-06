@@ -1,4 +1,16 @@
 # Reproducible research: version control and R
+## Questions 1-3
+https://github.com/1065094/logistic_growth
+Provided is the link to my logistic growth repository from which you can get the answers for Q1-3.
+
+## Question 4
+A) In the graph I can clearly see how randomness is generated, as both graphs are next to each other and are different trials. Each graph looks different since they are generated separately as their own random iteration. You can see where the path goes dependent on the x and y co-ordinates which are based on their respective x and y-axes. This is done over a period of time, defined from 0-500, although not with any particular unit and this is shown in the graph through the use of the blue gradient. The walk begins at (0,0) each time with a navy blue which eventually fades overtime to a sky blue.
+
+From what I understand of the code, the direction of the movement is varied through the use of sine and cos angles and h represents the constant distance of each step that is taken throughout the random walk. The angles are random, as they are independent of each other. I also see an iterator variable (i) is used to help generate a data frame that will be used to inform the random walk.
+
+B) A random seed is defined as a number used to initialize a pseudorandom number generator. Essentially, what happens is that a set of random numbers are generated initially, however the same set of random numbers are generated everytime after that. This helps maintain reproducibility because if someone else was to run the same code as you, they will also use the same random numbers and therefore end up with the same result! Therefore, it works as the starting point of randomness from a computer.
+
+C) 
 
 \# INSERT ANSWERS HERE #
 
