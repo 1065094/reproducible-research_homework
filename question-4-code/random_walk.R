@@ -4,15 +4,22 @@
 library(ggplot2)
 library(gridExtra)
 
-random_walk  <- function (n_steps) {
+brownian_motion  <- function (n_particles, seed) {
+  # Here I set a seed I can edit to have two different plots that will be produced the same each time.
+  set.seed(seed)
   
-  df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
+  df <- data.frame(x = rep(NA, n_particles), y = rep(NA, n_particles), time = 1:n_particles)
   
   df[1,] <- c(0,0,1)
   
-  for (i in 2:n_steps) {
+  for (i in 2:n_particles) {
     
-    h <- 0.25
+    h <- 0.006
+  
+    # Justification for this is that we are using sigma as usually used in Brownian motion. 
+    # This is the standard deviation of the mean squared displacement (MSD), which is based on theories of particle movement in physics.
+    # I used the equation for MSD, which considers the diffusion coefficient and how particles move overtime to accurately model movement.
+    # However, this is based on my assumption that these particles are moving in air.
     
     angle <- runif(1, min = 0, max = 2*pi)
     
@@ -28,7 +35,10 @@ random_walk  <- function (n_steps) {
   
 }
 
-data1 <- random_walk(500)
+# Below I chose 1440, since I thought it would be better for this experiment to run for longer to gather sufficient data.
+# This is just 24 hours, provided time is in minutes. A longer time implies more iterations and therefore increased reliability to some extent.
+
+data1 <- brownian_motion(1440, seed = 250)
 
 plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   
@@ -40,7 +50,7 @@ plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   
   ylab("y-coordinate")
 
-data2 <- random_walk(500)
+data2 <- brownian_motion(1440, seed = 786)
 
 plot2 <- ggplot(aes(x = x, y = y), data = data2) +
   
@@ -53,3 +63,8 @@ plot2 <- ggplot(aes(x = x, y = y), data = data2) +
   ylab("y-coordinate")
 
 grid.arrange(plot1, plot2, ncol=2)
+
+# There are other ways you can make this model more realistic, for example: by introducing a new iterator.
+# This could be used to understand how particles move in different environments due to changes in trajectory.
+# Additionally, you can make use of the cumsum() function to understand how stochastisity accumulates.
+# This will tell us about displacement trends but also is more reproducible.
