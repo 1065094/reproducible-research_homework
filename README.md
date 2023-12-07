@@ -35,6 +35,45 @@ D) See link: https://github.com/1065094/reproducible-research_homework/blob/a91d
 
 E) 6696998.50729 but R has rounded it to 6697007. See details on how this answer was generated in the Rmd with notes.
 
+BONUS:
+<u>Difference between reproducibility and replicability:</u>
+
+Reproducibility is used to check results and that the findings are not dependent on certain conditions, for example, with my own R project, will my graph still generate if someone else replicates it on their device with the edits they need? This tends to be done on the experiment on the whole. In this case, we use different methods to get similar results and is a broader concept as it is often done in different settings. This is often done for validation and consistency rather than reliability which repeatability demonstrates.
+
+Some ways we can ensure this is to use the FAIR rules which are:
+• Findable: the object has a unique link like a DOI; has rich metadata, and is registered in a search engine.
+• Accessible: the object can be found using the unique link and is open and free.
+• Interoperable: the object uses formal, accessible, shared and broadly applicable language for all.
+• Reusable: the object is released with a clear license like the MIT one in this repo, detailed metadata on provenance and meets domain-relevant community standards.
+
+GitHub facilitates the actioning of all of these rules. For individual reproducibility concerns, it is best to annotate your code, use clear names for variables, code in chunks and make sure names are user readable and computer readable!
+
+Whereas repeatability is when someone else repeats your experiment or a particular part of it exactly. They use the same equipment too. Provided they get the same outcome as you, this will be considered as repeatability.
+
+<u>How can you use git and GitHub to increase this?</u>
+
+Git is a distributed version control system to help track changes in code with others as well but happens locally on your computer.
+
+GitHub is the web-based version of Git and therefore stores code within the cloud and facilitates code sharing. It has a few more tools which make it slightly more useful since it is easier to do open-source development. Therefore, this is the host of Git.
+
+You can use these to see changes that take place, and this has been demonstrated through the commit history, as well as seeing the progress of the code through the use of different branches. For example, during our sessions we would work on the dev branch, since this is where the development was taking place and then we would pull this to the main branch to be updated once we were happy with it. This is known as version control, since you get to see the changes that took place. Therefore, this helps with repeatability and reproducibility as it is a centralised, transparent platform.
+
+This is particularly important to ensure open science and transparency. This helps with regards to reproducibility because if someone else wanted to know how you generated a figure for a paper or make their own version they can. You can also invite external people to work on your project too. I explain this in more detail below.
+It can also be used to allow people to come together to contribute to one project and therefore assign tasks where necessary. One such example of this is if any bugs arise, your team can collaborate on it and even show their individual solutions within their own branch. This way you can pick the most optimal solution too!
+
+<u>What limitations do they have?</u>
+
+However, they are not without their limitations since the limit to reproducibility is often found when people do not disclose the type of packages they are using. Alternatively, if people cannot access those packages this is also an issue. There is also the issue with individuals not following standard reproducibility rules like code annotation etc. 
+
+Other issues may relate to Intellectual property concerns, where some scientists may want to protect their code through a patent and other legislation, for their own reasons, it is often not malicious as they want to contribute to open science, but this may raise issues with regards to the ethics of sharing code with others.
+
+Additionally, you need internet to allow sharing, pushing and pulling between postitcloud and GitHub, so this may not be ideal in places where Wi-Fi access is difficult, for example during field work or in remote areas. However, for Git you do not need internet.
+
+Finally, GitHub cannot handle large raw files as I discovered through my other assignment where my HTML file could not be processed adequately, since there is a 2GB limit at the moment.
+
+Finally, Protocols.io is a method to develop and share reproducible methods. This means that we can make or manage them. This is like GitHub, but the difference is that it is a specific space for researchers in the field so this could enhance the scientific community as one of the most pressing issues is not sharing code or making It open access for papers and then vaguely referring to them. GitHub is often used with computer scientists and software engineers to allow collaborative development.
+
+
 # END OF ANSWERS #
 ## Instructions
 
