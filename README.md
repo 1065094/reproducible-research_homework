@@ -1,4 +1,5 @@
 # Reproducible research: Version control and R
+# INSERT ANSWERS HERE #
 ## Questions 1-3
 https://github.com/1065094/logistic_growth
 <div>Provided is the link to my logistic growth repository from which you can get the answers for Q1-3.</div>
@@ -13,10 +14,10 @@ B) A random seed is defined as a number used to initialize a pseudorandom number
 C) https://github.com/1065094/reproducible-research_homework/blob/149249ab368237ea9952d211ef425aa1ce45bbaa/question-4-code/random_walk.R
 <div>Here is the link to the section of my repo where I had pushed and committed my changes to the code and it has updated.</div>
 
+
 D) ![CAPTION](https://github.com/1065094/reproducible-research_homework/blob/a2314354623c3e17f72de26795feb98811d2c105/diffincode.png)
 
-# INSERT ANSWERS HERE #
-
+# END OF ANSWERS #
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
