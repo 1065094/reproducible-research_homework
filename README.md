@@ -29,7 +29,7 @@ C) Exponent (alpha): 1181.807
 - Scaling factor (beta): 1.5152
 - p-values: 2.28e-10 and 6.44e-10 respectively
 - Significant: Yes
-In comparison to the paper, I had similar values...
+<div> In comparison to the paper, I had similar values... </div>
 
 D) See link:
 
