@@ -7,7 +7,7 @@ https://github.com/1065094/logistic_growth
 ^ Paper used for those questions
 
 ## Question 4
-A) In the graph I can clearly see how randomness is generated, as both graphs are next to each other and are different trials. Each graph looks different since they are generated separately as their own random iteration. You can see where the path goes dependent on the x and y co-ordinates which are based on their respective x and y-axes. This is done over a period of time, defined from 0-500, although not with any particular unit and this is shown in the graph through the use of the blue gradient. The walk begins at (0,0) each time with a navy blue which eventually fades overtime to a sky blue.
+A) In the graph I can clearly see how randomness is generated, as both graphs are next to each other and are different trials. Each graph looks different since they are generated separately as their own random iteration. You can see where the path goes dependent on the x and y co-ordinates which are based on their respective x and y-axes. This is done over a period of time, defined from 0-500, although not with any particular unit and this is shown in the graph through the use of the blue gradient. The walk begins at (0,0) each time with a navy blue which eventuall fades overtime to a sky blue.
 
 From what I understand of the code, the direction of the movement is varied through the use of sine and cos angles and h represents the constant distance of each step that is taken throughout the random walk. The angles are random, as they are independent of each other. I also see an iterator variable (i) is used to help generate a data frame that will be used to inform the random walk.
 
@@ -20,14 +20,15 @@ C) https://github.com/1065094/reproducible-research_homework/blob/149249ab368237
 D) ![CAPTION](https://github.com/1065094/reproducible-research_homework/blob/a2314354623c3e17f72de26795feb98811d2c105/diffincode.png)
 
 ## Question 5
-A) Rows = 34, Columns = 13
+A) Rows = 33, Columns = 13
 
 B) Logarithmic, in my code you can see that I use the natural log (ln).
+I did this on both sides to get a linear equation. The linear equation helps me work out what the values are due to the regression model used as demonstrated in my code.
 
-C) Exponent (alpha):
-- Scaling factor (beta):
-- p-values:
-- Significant: Y/N
+C) Exponent (alpha): 1181.807
+- Scaling factor (beta): 1.5152
+- p-values: 2.28e-10 and 6.44e-10 respectively
+- Significant: Yes
 In comparison to the paper, I had similar values...
 
 D) See link:
