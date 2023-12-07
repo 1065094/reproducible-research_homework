@@ -31,7 +31,7 @@ C) Exponent (alpha): 1181.807
 - Significant: Yes, this is because our p-values are much smaller than the conventional 0.05 which means we can reject the null hypothesis as there is sufficient evidence to suggest this.
 <div> In comparison to the paper, I had similar values since the exponent is 1.52 but has a range of (1.16-1.87), which we are close to and fall within the range of. Similarly, the scaling factor in the paper is rounded to 1182, which is the same as mine when rounded also. They also have a range for this which is 246-5675. </div>
 
-D) See link: ![CAPTION](https://github.com/1065094/reproducible-research_homework/blob/a91d40d01b021e1d0da1a17a21482eb0fabe33b3/viralmodelling.Rmd}
+D) See link: https://github.com/1065094/reproducible-research_homework/blob/a91d40d01b021e1d0da1a17a21482eb0fabe33b3/viralmodelling.Rmd
 
 E) 6696998.50729 but R has rounded it to 6697007. See details on how this answer was generated in the Rmd with notes.
 
