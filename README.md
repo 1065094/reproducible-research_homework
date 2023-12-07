@@ -33,6 +33,7 @@ C) Exponent (alpha): 1181.807
 
 
 D) See link: https://github.com/1065094/reproducible-research_homework/blob/a91d40d01b021e1d0da1a17a21482eb0fabe33b3/viralmodelling.Rmd
+![CAPTION](https://github.com/1065094/reproducible-research_homework/blob/9f090bb52771047ac38101f27217df21f8aca19d/viralgraph.png)
 
 E) 6696998.50729 but R has rounded it to 6697007. See details on how this answer was generated in the Rmd with notes.
 
