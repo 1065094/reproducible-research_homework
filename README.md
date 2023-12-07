@@ -35,8 +35,8 @@ D) See link: https://github.com/1065094/reproducible-research_homework/blob/a91d
 
 E) 6696998.50729 but R has rounded it to 6697007. See details on how this answer was generated in the Rmd with notes.
 
-BONUS:
-<u> Difference between reproducibility and replicability: </u>
+## BONUS:
+__Difference between reproducibility and replicability:__
 
 Reproducibility is used to check results and that the findings are not dependent on certain conditions, for example, with my own R project, will my graph still generate if someone else replicates it on their device with the edits they need? This tends to be done on the experiment on the whole. In this case, we use different methods to get similar results and is a broader concept as it is often done in different settings. This is often done for validation and consistency rather than reliability which repeatability demonstrates.
 
@@ -51,7 +51,7 @@ GitHub facilitates the actioning of all of these rules. For individual reproduci
 
 Whereas repeatability is when someone else repeats your experiment or a particular part of it exactly. They use the same equipment too. Provided they get the same outcome as you, this will be considered as repeatability.
 
-<u> How can you use git and GitHub to increase this? </u>
+__How can you use git and GitHub to increase this?__
 
 Git is a distributed version control system to help track changes in code with others as well but happens locally on your computer.
 
@@ -62,7 +62,7 @@ You can use these to see changes that take place, and this has been demonstrated
 This is particularly important to ensure open science and transparency. This helps with regards to reproducibility because if someone else wanted to know how you generated a figure for a paper or make their own version they can. You can also invite external people to work on your project too. I explain this in more detail below.
 It can also be used to allow people to come together to contribute to one project and therefore assign tasks where necessary. One such example of this is if any bugs arise, your team can collaborate on it and even show their individual solutions within their own branch. This way you can pick the most optimal solution too!
 
-<u> What limitations do they have? </u>
+__What limitations do they have?__
 
 However, they are not without their limitations since the limit to reproducibility is often found when people do not disclose the type of packages they are using. Alternatively, if people cannot access those packages this is also an issue. There is also the issue with individuals not following standard reproducibility rules like code annotation etc. 
 
@@ -72,7 +72,7 @@ Additionally, you need internet to allow sharing, pushing and pulling between po
 
 Finally, GitHub cannot handle large raw files as I discovered through my other assignment where my HTML file could not be processed adequately, since there is a 2GB limit at the moment.
 
-Finally, Protocols.io is a method to develop and share reproducible methods. This means that we can make or manage them. This is like GitHub, but the difference is that it is a specific space for researchers in the field so this could enhance the scientific community as one of the most pressing issues is not sharing code or making It open access for papers and then vaguely referring to them. GitHub is often used with computer scientists and software engineers to allow collaborative development.
+Finally, __Protocols.io__ is a method to develop and share reproducible methods. This means that we can make or manage them. This is like GitHub, but the difference is that it is a specific space for researchers in the field so this could enhance the scientific community as one of the most pressing issues is not sharing code or making It open access for papers and then vaguely referring to them. GitHub is often used with computer scientists and software engineers to allow collaborative development.
 
 
 # END OF ANSWERS #
