@@ -10,12 +10,10 @@ From what I understand of the code, the direction of the movement is varied thro
 
 B) A random seed is defined as a number used to initialize a pseudorandom number generator. Essentially, what happens is that a set of random numbers are generated initially, however the same set of random numbers are generated everytime after that. This helps maintain reproducibility because if someone else was to run the same code as you, they will also use the same random numbers and therefore end up with the same result! Therefore, it works as the starting point of randomness from a computer.
 
-C) https://github.com/1065094/reproducible-research_homework/blob/fd3d18ba2f06c10bb5e568cf3a8abd2f8dcca5df/randommodel.R
-Here is my edited script. Within my repo you will also find the figure that you should get when you run the code.
-You can also see the edited version on this link: 
-This is because when I pushed and committed, it updated the random walk.
+C) https://github.com/1065094/reproducible-research_homework/blob/149249ab368237ea9952d211ef425aa1ce45bbaa/question-4-code/random_walk.R
+Here is the link to the section of my repo where I had pushed and committed my changes to the code and it has updated.
 
-D)
+D) ![CAPTION}()
 
 \# INSERT ANSWERS HERE #
 
