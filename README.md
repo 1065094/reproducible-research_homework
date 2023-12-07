@@ -3,6 +3,8 @@
 ## Questions 1-3
 https://github.com/1065094/logistic_growth
 <div>Provided is the link to my logistic growth repository from which you can get the answers for Q1-3.</div>
+<div> Rolfe MD, Rice CJ, Lucchini S, Pin C, Thompson A, Cameron AD, Alston M, Stringer MF, Betts RP, Baranyi J, Peck MW, Hinton JC. Lag phase is a distinct growth phase that prepares bacteria for exponential growth and involves transient metal accumulation. J Bacteriol. 2012 Feb;194(3):686-701. doi: 10.1128/JB.06112-11. Epub 2011 Dec 2. PMID: 22139505; PMCID: PMC3264077. </div>
+^ Paper used for those questions
 
 ## Question 4
 A) In the graph I can clearly see how randomness is generated, as both graphs are next to each other and are different trials. Each graph looks different since they are generated separately as their own random iteration. You can see where the path goes dependent on the x and y co-ordinates which are based on their respective x and y-axes. This is done over a period of time, defined from 0-500, although not with any particular unit and this is shown in the graph through the use of the blue gradient. The walk begins at (0,0) each time with a navy blue which eventually fades overtime to a sky blue.
@@ -16,6 +18,21 @@ C) https://github.com/1065094/reproducible-research_homework/blob/149249ab368237
 
 
 D) ![CAPTION](https://github.com/1065094/reproducible-research_homework/blob/a2314354623c3e17f72de26795feb98811d2c105/diffincode.png)
+
+## Question 5
+A) Rows = 34, Columns = 13
+
+B) Logarithmic, in my code you can see that I use the natural log (ln).
+
+C) Exponent (alpha):
+- Scaling factor (beta):
+- p-values:
+- Significant: Y/N
+In comparison to the paper, I had similar values...
+
+D) See link:
+
+E) 
 
 # END OF ANSWERS #
 ## Instructions
