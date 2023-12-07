@@ -1,4 +1,4 @@
-# Reproducible research: version control and R
+# Reproducible research: Version control and R
 ## Questions 1-3
 https://github.com/1065094/logistic_growth
 <div>Provided is the link to my logistic growth repository from which you can get the answers for Q1-3.</div>
@@ -11,11 +11,11 @@ From what I understand of the code, the direction of the movement is varied thro
 B) A random seed is defined as a number used to initialize a pseudorandom number generator. Essentially, what happens is that a set of random numbers are generated initially, however the same set of random numbers are generated everytime after that. This helps maintain reproducibility because if someone else was to run the same code as you, they will also use the same random numbers and therefore end up with the same result! Therefore, it works as the starting point of randomness from a computer.
 
 C) https://github.com/1065094/reproducible-research_homework/blob/149249ab368237ea9952d211ef425aa1ce45bbaa/question-4-code/random_walk.R
-Here is the link to the section of my repo where I had pushed and committed my changes to the code and it has updated.
+<div>Here is the link to the section of my repo where I had pushed and committed my changes to the code and it has updated.</div>
 
-D) ![CAPTION}()
+D) ![CAPTION](https://github.com/1065094/reproducible-research_homework/blob/a2314354623c3e17f72de26795feb98811d2c105/diffincode.png)
 
-\# INSERT ANSWERS HERE #
+# INSERT ANSWERS HERE #
 
 ## Instructions
 
