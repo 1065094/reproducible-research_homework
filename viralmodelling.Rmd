@@ -1,0 +1,73 @@
+---
+title: "viralmodelling"
+output: html_document
+date: "2023-12-07"
+---
+
+```{r}
+# Loading the packages needed.
+library(ggplot2)
+library(dplyr)
+library(readr)
+```
+
+```{r}
+# Import the dataset.
+Cui_etal2014 <- read_csv("question-5-data/Cui_etal2014.csv")
+View(Cui_etal2014)
+```
+
+```{r}
+# Counting rows and columns.
+numberofrows <- nrow(Cui_etal2014)
+numberofcolumns <- ncol(Cui_etal2014)
+numberofrows
+# Ans = 33
+numberofcolumns
+# Ans = 13
+```
+
+```{r}
+# Making a model to determine the scaling factor and exponent, applying the log transformation.
+# Using only the columns necessary to log transform to ensure we do not affect other data.
+virandgenomelog <- c("Virion volume (nm×nm×nm)", "Genome length (kb)")
+logtransform <- log(Cui_etal2014[, virandgenomelog])
+```
+
+```{r}
+# Making and using this model to extract the coefficient and the scaling factor.
+model <- lm(logtransform)
+# This will make a linearised model.
+scaling_factor <- exp(coef(model)[1])
+exponent <- coef(model) [2]
+
+cat("Scaling factor (beta):", scaling_factor, "/n")
+# alpha is 1.5152
+# beta is 1181.807
+cat("Exponent (alpha) :", scaling_factor, "/n")
+
+# Printing the results and the p-values
+summary(model)
+# p-value for alpha: 2.28e-10
+# p-value for beta: 6.44e-10
+# Therefore, significant.
+# This is similar to the values in the paper! :) 
+
+```
+
+```{r}
+# Remaking the graph.
+ggplot(data = model, aes(x = `Virion volume (nm×nm×nm)`, y = `Genome length (kb)`)) + geom_point() + geom_smooth(method=lm, se = TRUE, fill = "grey54", colour = "royalblue", linewidth = 0.5) + xlab("log[Genome length (kb)]") + ylab("log [Virion volume (nm3)]") + theme_minimal() + theme(axis.title = element_text(face = "bold")) + theme(panel.border = element_rect(colour = "grey45", fill = NA, size = 0.5))
+```       
+
+```{r}
+# What is the estimated volume of a 300kb dsDNA virus?
+dsDNA300 <- log(300)
+dsDNA300
+volumeestimated <- (1.5152*dsDNA300) + (7.0748)
+volumeestimated
+# In the steps above, I had to find log of 300 so that I could make use of my log transformed model.
+# This equation has now been linearised and therefore is in the format of y=mx+c
+# Therefore, the gradient is ~1.5 and the intercept is ~7 from our summary of the model.
+# Giving us a final answer of 15.71717
+```
