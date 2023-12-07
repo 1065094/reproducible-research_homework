@@ -70,4 +70,7 @@ volumeestimated
 # This equation has now been linearised and therefore is in the format of y=mx+c
 # Therefore, the gradient is ~1.5 and the intercept is ~7 from our summary of the model.
 # Giving us a final answer of 15.71717
+# However, we need to inverse it as it is linearised right now, and therefore when doing e^15.71..., our final answer is 6696998.50729, R rounds it as you will see here when we use our model to 6697007.
+finalans <- exp(volumeestimated)
+finalans
 ```
