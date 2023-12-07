@@ -1,7 +1,7 @@
 # Reproducible research: version control and R
 ## Questions 1-3
 https://github.com/1065094/logistic_growth
-Provided is the link to my logistic growth repository from which you can get the answers for Q1-3.
+<div>Provided is the link to my logistic growth repository from which you can get the answers for Q1-3.</div>
 
 ## Question 4
 A) In the graph I can clearly see how randomness is generated, as both graphs are next to each other and are different trials. Each graph looks different since they are generated separately as their own random iteration. You can see where the path goes dependent on the x and y co-ordinates which are based on their respective x and y-axes. This is done over a period of time, defined from 0-500, although not with any particular unit and this is shown in the graph through the use of the blue gradient. The walk begins at (0,0) each time with a navy blue which eventually fades overtime to a sky blue.
@@ -12,6 +12,8 @@ B) A random seed is defined as a number used to initialize a pseudorandom number
 
 C) https://github.com/1065094/reproducible-research_homework/blob/fd3d18ba2f06c10bb5e568cf3a8abd2f8dcca5df/randommodel.R
 Here is my edited script. Within my repo you will also find the figure that you should get when you run the code.
+You can also see the edited version on this link: 
+This is because when I pushed and committed, it updated the random walk.
 
 D)
 
