@@ -28,12 +28,12 @@ I did this on both sides to get a linear equation. The linear equation helps me 
 C) Exponent (alpha): 1181.807
 - Scaling factor (beta): 1.5152
 - p-values: 2.28e-10 and 6.44e-10 respectively
-- Significant: Yes
-<div> In comparison to the paper, I had similar values... </div>
+- Significant: Yes, this is because our p-values are much smaller than the conventional 0.05 which means we can reject the null hypothesis as there is sufficient evidence to suggest this.
+<div> In comparison to the paper, I had similar values since the exponent is 1.52 but has a range of (1.16-1.87), which we are close to and fall within the range of. Similarly, the scaling factor in the paper is rounded to 1182, which is the same as mine when rounded also. They also have a range for this which is 246-5675. </div>
 
 D) See link:
 
-E) 
+E) 6696998.50729 but R has rounded it to 6697007. See details on how this answer was generated in the Rmd with notes.
 
 # END OF ANSWERS #
 ## Instructions
