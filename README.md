@@ -36,21 +36,22 @@ D) See link: https://github.com/1065094/reproducible-research_homework/blob/a91d
 E) 6696998.50729 but R has rounded it to 6697007. See details on how this answer was generated in the Rmd with notes.
 
 BONUS:
-<u>Difference between reproducibility and replicability:</u>
+<u> Difference between reproducibility and replicability: </u>
 
 Reproducibility is used to check results and that the findings are not dependent on certain conditions, for example, with my own R project, will my graph still generate if someone else replicates it on their device with the edits they need? This tends to be done on the experiment on the whole. In this case, we use different methods to get similar results and is a broader concept as it is often done in different settings. This is often done for validation and consistency rather than reliability which repeatability demonstrates.
 
 Some ways we can ensure this is to use the FAIR rules which are:
-• Findable: the object has a unique link like a DOI; has rich metadata, and is registered in a search engine.
-• Accessible: the object can be found using the unique link and is open and free.
-• Interoperable: the object uses formal, accessible, shared and broadly applicable language for all.
-• Reusable: the object is released with a clear license like the MIT one in this repo, detailed metadata on provenance and meets domain-relevant community standards.
+- Findable: the object has a unique link like a DOI; has rich metadata, and is registered in a search engine.
+- Accessible: the object can be found using the unique link and is open and free.
+- Interoperable: the object uses formal, accessible, shared and broadly applicable language for all.
+- Reusable: the object is released with a clear license like the MIT one in this repo, detailed metadata on provenance and meets domain-relevant community standards.
 
+<div></div>
 GitHub facilitates the actioning of all of these rules. For individual reproducibility concerns, it is best to annotate your code, use clear names for variables, code in chunks and make sure names are user readable and computer readable!
 
 Whereas repeatability is when someone else repeats your experiment or a particular part of it exactly. They use the same equipment too. Provided they get the same outcome as you, this will be considered as repeatability.
 
-<u>How can you use git and GitHub to increase this?</u>
+<u> How can you use git and GitHub to increase this? </u>
 
 Git is a distributed version control system to help track changes in code with others as well but happens locally on your computer.
 
@@ -61,7 +62,7 @@ You can use these to see changes that take place, and this has been demonstrated
 This is particularly important to ensure open science and transparency. This helps with regards to reproducibility because if someone else wanted to know how you generated a figure for a paper or make their own version they can. You can also invite external people to work on your project too. I explain this in more detail below.
 It can also be used to allow people to come together to contribute to one project and therefore assign tasks where necessary. One such example of this is if any bugs arise, your team can collaborate on it and even show their individual solutions within their own branch. This way you can pick the most optimal solution too!
 
-<u>What limitations do they have?</u>
+<u> What limitations do they have? </u>
 
 However, they are not without their limitations since the limit to reproducibility is often found when people do not disclose the type of packages they are using. Alternatively, if people cannot access those packages this is also an issue. There is also the issue with individuals not following standard reproducibility rules like code annotation etc. 
 
